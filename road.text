@@ -2,4 +2,7 @@
 - virtual env
     - create env
     - activate env
-    - 
+    - pip install django
+    - pip freeze > requirments.txt
+
+- upload project on github
