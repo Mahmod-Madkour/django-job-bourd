@@ -1,9 +1,10 @@
 job :
+    - titel
     - location
     - job type
     - desciption
     - published at
-    - Vacancy
+    - vacancy
     - Salary
     - category
     - experience
@@ -28,5 +29,11 @@ contact
 Home
 
 Login
+
+
+Relations :
+    - one to many   [user - posts]
+    - many to many  [user - groups]
+    - one to one    [user - profile]
 
 
